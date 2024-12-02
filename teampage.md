@@ -1,3 +1,10 @@
+---
+title: 'General Team Analysis'
+layout: default
+
+---
+
+
 ### The four factors
 
-[Logistic_Regression](files/mlr.html){:target='_blank'}
+[Logistic Regression](files/mlr.html){:target='_blank'}
