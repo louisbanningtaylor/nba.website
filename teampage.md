@@ -7,4 +7,4 @@ layout: default
 
 ### The four factors
 
-[Logistic Regression](files/mlr.html){:target='_blank'}
+[Logistic Regression](files/team_fourfactors_logistic.html){:target='_blank'}
