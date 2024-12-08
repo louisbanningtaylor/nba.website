@@ -3,12 +3,12 @@ title: 'Sample Data'
 layout: default
 
 ---
+# Sample Data for Los Angeles Lakers v. Denver Nuggets 2023-10-24
 
-### Sample Advanced Data
-[Sample Advanced Data](files/sample/2023-10-24LALDEN.html){:target='_blank'}
+[Sample Tracking Data](files/sample/2023-10-24LALDEN.html){:target='_blank'}
 
-### Sample Advanced Team 
+[Sample Advanced Team](files/sample/2023-10-24LALDENadv.html){:target='_blank'}
 
-### Sample Box Score Data 
+[Sample Box Score Data](files/sample/2023-10-24LALDENbox.html){:target='_blank'}
 
-### Sample Play-by-Play 
+[Sample Play-by-Play](files/sample/2023-10-24LALDENboxpbp.html){:target='_blank'}
