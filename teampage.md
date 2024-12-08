@@ -5,6 +5,10 @@ layout: default
 ---
 
 
-### The four factors
+## The four factors
 
-[Logistic Regression](files/team_fourfactors_logistic.html){:target='_blank'}
+[Four Factors Logistic Regression](files/team_fourfactors_logistic.html){:target='_blank'}
+
+### Shooting
+
+[High value shooting locations](files/high_value_shooting_locations.html){:target='_blank'}
