@@ -3,7 +3,7 @@ title: 'Sample Data'
 layout: default
 
 ---
-# Sample Data for Los Angeles Lakers v. Denver Nuggets 2023-10-24
+## Sample Data for Los Angeles Lakers v. Denver Nuggets 2023-10-24
 
 [Sample Tracking Data](files/sample/2023-10-24LALDEN.html){:target='_blank'}
 
