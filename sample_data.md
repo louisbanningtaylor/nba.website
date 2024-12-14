@@ -11,4 +11,4 @@ layout: default
 
 [Sample Box Score Data](files/sample/2023-10-24LALDENbox.html){:target='_blank'}
 
-[Sample Play-by-Play](files/sample/2023-10-24LALDENboxpbp.html){:target='_blank'}
+[Sample Play-by-Play](files/sample/2023-10-24LALDENpbp.html){:target='_blank'}
