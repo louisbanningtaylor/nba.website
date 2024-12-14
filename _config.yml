@@ -9,6 +9,7 @@ navigation:
   - title: "Sample Data"
     url: "/sample_data/"
   - title: "General Team Analysis"
+    nav_order: 3
     url: "/teampage/"
   - title: "General Player Analysis" 
     permalink: "/playerpage/"
