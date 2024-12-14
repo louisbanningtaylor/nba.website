@@ -1,5 +1,6 @@
 ---
 title: 'Sample Data' 
+nav_order: 2 
 layout: default
 
 ---

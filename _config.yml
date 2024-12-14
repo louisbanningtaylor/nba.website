@@ -3,17 +3,6 @@ description: some statistical analysis of basketball games
 theme: just-the-docs
 url: https://louisbanningtaylor.github.io/nba.website
 
-navigation:
-  - title: "Welcome"
-    url: "/"
-  - title: "Sample Data"
-    url: "/sample_data/"
-  - title: "General Team Analysis"
-    nav_order: 3
-    url: "/teampage/"
-  - title: "General Player Analysis" 
-    permalink: "/playerpage/"
-
 
 aux_links:
   Template Repository: https://github.com/louisbanningtaylor/nba.website
