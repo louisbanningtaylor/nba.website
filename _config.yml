@@ -11,7 +11,7 @@ navigation:
   - title: "General Team Analysis"
     url: "/teampage/"
   - title: "General Player Analysis" 
-    url: "/playerpage/"
+    permalink: "/playerpage/"
 
 
 aux_links:
