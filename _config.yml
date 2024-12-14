@@ -4,14 +4,14 @@ theme: just-the-docs
 url: https://louisbanningtaylor.github.io/nba.website
 
 navigation:
-- title: "Welcome"
-  url: "/"
-- title: "Sample Data"
-  url: "/sample_data/"
--title: "General Team Analysis"
-  url: "/teampage/"
--title: "General Player Analysis" 
-  url: "/playerpage/"
+  - title: "Welcome"
+    url: "/"
+  - title: "Sample Data"
+    url: "/sample_data/"
+  - title: "General Team Analysis"
+    url: "/teampage/"
+  - title: "General Player Analysis" 
+    url: "/playerpage/"
 
 
 aux_links:
