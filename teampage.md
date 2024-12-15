@@ -19,3 +19,6 @@ layout: default
 [High value shooting locations](files/high_value_shooting_locations.html){:target='_blank'}
 
 [Impact of Possession Initiation on Efficient Field Goal Percent](files/team_efg_ANOVA.html){:target='_blank'}
+
+[EFG% and Frequency by Zone for each Team 2023-24 Regular Season](files/files/23.24regszn_team_profiles.html){:target='_blank'}
+
