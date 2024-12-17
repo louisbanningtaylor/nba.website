@@ -6,7 +6,7 @@ layout: default
 ---
 
 
-## The four factors
+## Performance
 
 [Four Factors Logistic Regression](files/team_fourfactors_logistic.html){:target='_blank'}
 
@@ -20,5 +20,5 @@ layout: default
 
 [Impact of Possession Initiation on Efficient Field Goal Percent](files/team_efg_ANOVA.html){:target='_blank'}
 
-[EFG% and Frequency by Zone for each Team 2023-24 Regular Season](files/files/23.24regszn_team_profiles.html){:target='_blank'}
+[EFG% and Frequency by Zone for each Team 2023-24 Regular Season](files/23.24regszn_team_profiles.html){:target='_blank'}
 
