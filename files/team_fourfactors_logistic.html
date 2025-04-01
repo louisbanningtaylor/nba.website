@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Louis BT">
-<meta name="dcterms.date" content="2025-03-31">
+<meta name="dcterms.date" content="2025-04-01">
 
 <title>Team Win Logistic Regression</title>
 <style>
@@ -3483,7 +3483,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 31, 2025</p>
+      <p class="date">April 1, 2025</p>
     </div>
   </div>
   
@@ -3518,7 +3518,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="the-four-factors">The four factors</h3>
 <ol type="1">
 <li>Efficient shot percentage (efg): <span class="math inline">\(efg\% = \frac{fgm + 0.5\cdot 3fgm}{fga}\)</span></li>
-<li>Offensive rebound rate (oreb_rate): <span class="math inline">\(oreb\_rate = \frac{\text{\# of offensive rebounds}}{\text{\# of offensive rebound opportunities}} = \frac{oreb}{fga - fgm -ftm\text{(last free throw of set)}\)</span></li>
+<li>Offensive rebound rate (oreb_rate): <span class="math inline">\(oreb\_rate = \frac{\text{\# of offensive rebounds}}{\text{\# of offensive rebound opportunities}} = \frac{oreb}{fga - fgm -ftm\text{(last free throw of set)}}\)</span></li>
 </ol>
 <p>note: a set of freethrows is variable: 1, 2, 3</p>
 <ol start="3" type="1">
@@ -3932,10 +3932,10 @@ Truth
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">0.9464333</td>
-<td style="text-align: right;">0.8928661</td>
-<td style="text-align: right;">0.0187734</td>
-<td style="text-align: right;">0.0375498</td>
+<td style="text-align: right;">0.9472683</td>
+<td style="text-align: right;">0.894533</td>
+<td style="text-align: right;">0.0190768</td>
+<td style="text-align: right;">0.0381549</td>
 </tr>
 </tbody>
 </table>
@@ -4481,7 +4481,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a><span class="fu">### The four factors</span></span>
 <span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Efficient shot percentage (efg): $efg\% = \frac{fgm + 0.5\cdot 3fgm}{fga}$</span>
-<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Offensive rebound rate (oreb_rate): $oreb<span class="sc">\_</span>rate = \frac{\text{<span class="sc">\#</span> of offensive rebounds}}{\text{<span class="sc">\#</span> of offensive rebound opportunities}} = \frac{oreb}{fga - fgm -ftm\text{(last free throw of set)}$</span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Offensive rebound rate (oreb_rate): $oreb<span class="sc">\_</span>rate = \frac{\text{<span class="sc">\#</span> of offensive rebounds}}{\text{<span class="sc">\#</span> of offensive rebound opportunities}} = \frac{oreb}{fga - fgm -ftm\text{(last free throw of set)}}$</span>
 <span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>note: a set of freethrows is variable: 1, 2, 3</span>
 <span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a></span>
@@ -4628,7 +4628,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb11-187"><a href="#cb11-187" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-188"><a href="#cb11-188" aria-hidden="true" tabindex="-1"></a>**Final Model**:</span>
 <span id="cb11-189"><a href="#cb11-189" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-190"><a href="#cb11-190" aria-hidden="true" tabindex="-1"></a>$\log(\frac{p}{1-p}) = 0.942(\text{efg\%}) + 0.37(\text{oreb<span class="sc">\_</span>rate}) - 0.764(\text{tov<span class="sc">\_</span>rate}) + 0.156(\text{fta<span class="sc">\_</span>rate})$ </span>
+<span id="cb11-190"><a href="#cb11-190" aria-hidden="true" tabindex="-1"></a>$\log(\frac{p}{1-p}) = 0.942(\text{efg\%}) + 0.37(\text{oreb<span class="sc">\_</span>rate}) - 0.764(\text{tov<span class="sc">\_</span>rate}) + 0.156(\text{fta<span class="sc">\_</span>rate})$</span>
 <span id="cb11-191"><a href="#cb11-191" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-192"><a href="#cb11-192" aria-hidden="true" tabindex="-1"></a>$\qquad- 0.942(\text{opp<span class="sc">\_</span>efg\%}) - 0.37(\text{opp<span class="sc">\_</span>oreb<span class="sc">\_</span>rate}) + 0.764(\text{opp<span class="sc">\_</span>tov<span class="sc">\_</span>rate}) - 0.156(\text{opp<span class="sc">\_</span>fta<span class="sc">\_</span>rate})$</span>
 <span id="cb11-193"><a href="#cb11-193" aria-hidden="true" tabindex="-1"></a></span>
@@ -4639,7 +4639,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb11-198"><a href="#cb11-198" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**tov_rate**: A one-unit increase in tov_rate decreases the log-odds by 0.764, corresponding to an odds ratio of 2.15.</span>
 <span id="cb11-199"><a href="#cb11-199" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>**fta_rate**: A one-unit in fta_rate increases the log-odds by 0.156, corresponding to an odds ratio of 1.168. Getting to the free-throw line more slightly improves the team&#39;s chances of winning.</span>
 <span id="cb11-200"><a href="#cb11-200" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-201"><a href="#cb11-201" aria-hidden="true" tabindex="-1"></a>The model shows that this combination of explanatory variables while limiting the opponent&#39;s effectiveness in the same areas, collectively determine your probability of winning a basketball game. Clearly the most significant predictor in the outcome of a basketball game is how well you shoot. </span>
+<span id="cb11-201"><a href="#cb11-201" aria-hidden="true" tabindex="-1"></a>The model shows that this combination of explanatory variables while limiting the opponent&#39;s effectiveness in the same areas, collectively determine your probability of winning a basketball game. Clearly the most significant predictor in the outcome of a basketball game is how well you shoot.</span>
 <span id="cb11-202"><a href="#cb11-202" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-203"><a href="#cb11-203" aria-hidden="true" tabindex="-1"></a><span class="fu">### Improvements</span></span>
 <span id="cb11-204"><a href="#cb11-204" aria-hidden="true" tabindex="-1"></a></span>
