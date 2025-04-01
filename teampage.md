@@ -22,3 +22,6 @@ layout: default
 
 [EFG% and Frequency by Zone for each Team 2023-24 Regular Season](files/23.24regszn_team_profiles.html){:target='_blank'}
 
+### Defense
+
+[Shooting Efficiency & Frequency by Zone when Rudy Gobert is on/off court](files/rudy_gobert_defense.html){:target='_blank'}
